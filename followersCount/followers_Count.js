@@ -18,3 +18,10 @@ function checkCountValue() {
 function displayCount() {
 document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
 }
+
+//Practice Section
+function resetCount() {
+    count = 0;
+    displayCount(); // Display the count
+    alert("Followers Count Has Been Reset!")
+}
